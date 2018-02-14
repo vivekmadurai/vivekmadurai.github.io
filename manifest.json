@@ -1,0 +1,31 @@
+{
+    "name": "Vivek Madurai  Demo Apps",
+    "short_name": "Demo Apps",
+    "start_url": "/",
+    "display": "fullscreen",
+  	"theme_color": "transparent",
+  	"orientation": "any",
+  	"background_color": "transparent",
+  	"icons": [
+	    {
+	      "src": "images/64x64.png",
+	      "sizes": "64x64",
+	      "type": "image/png"
+	    },
+	    {
+	      "src": "images/128x128.png",
+	      "sizes": "128x128",
+	      "type": "image/png"
+	    },
+	    {
+	      "src": "images/256x256.png",
+	      "sizes": "256x256",
+	      "type": "image/png"
+	    },
+	    {
+	      "src": "images/512x512.png",
+	      "sizes": "512x512",
+	      "type": "image/png"
+	    }
+	]
+}
