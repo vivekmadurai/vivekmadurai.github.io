@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PWA App</title>
+    <link rel="manifest" href="/manifest.json">
+</head>
+<body>
+    <p> Simple PWA App </p>
+    <ul id="result"></ul>
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/service-worker.js')
+            .then(reg => console.log('Service Worker registered', reg))
+            .catch(err => console.log('Service worker not registered', err));
+        }
+    </script>
+    <script>
+        const list = document.getElementById('result');
+        fetch('/mock-data.json')
+	        .then(res => {
+	            return res.json();
+	        })
+	        .then(json => {
+	        	console.info("json", json);
+	            result.innerHTML = json.Todos
+	            					.map(item => `<li>${item.title}</li>`)
+	                            	.join('');
+	        })
+    </script>
+</body>
+</html>

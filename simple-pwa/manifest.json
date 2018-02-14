@@ -1,0 +1,31 @@
+{
+    "name": "Simple PWA App",
+    "short_name": "PWA App",
+    "start_url": "/",
+    "display": "fullscreen",
+  	"theme_color": "transparent",
+  	"orientation": "any",
+  	"background_color": "transparent",
+  	"icons": [
+	    {
+	      "src": "images/96x96.png",
+	      "sizes": "96x96",
+	      "type": "image/png"
+	    },
+	    {
+	      "src": "images/144x144.png",
+	      "sizes": "144x144",
+	      "type": "image/png"
+	    },
+	    {
+	      "src": "images/192x192.png",
+	      "sizes": "192x192",
+	      "type": "image/png"
+	    },
+	    {
+	      "src": "images/512x512.png",
+	      "sizes": "512x512",
+	      "type": "image/png"
+	    }
+	]
+}

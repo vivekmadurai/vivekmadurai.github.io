@@ -1,0 +1,19 @@
+{
+	"Todos":[
+		{
+			"id": 1,
+			"title": "My first task",
+			"completed": false
+		},
+		{
+			"id": 2,
+			"title": "My second task",
+			"completed": true
+		},
+		{
+			"id": 3,
+			"title": "Additional test items",
+			"completed": false
+		}
+	]
+}
