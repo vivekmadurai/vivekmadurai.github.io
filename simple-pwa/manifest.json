@@ -1,7 +1,7 @@
 {
     "name": "Simple PWA App",
     "short_name": "Simple PWA",
-    "start_url": "/",
+    "start_url": "/simple-pwa",
     "display": "fullscreen",
   	"theme_color": "transparent",
   	"orientation": "any",
